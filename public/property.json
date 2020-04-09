@@ -1,0 +1,332 @@
+[
+  {
+    "title": "Subdivision Lot For Sale",
+    "price": 1050000,
+    "lotArea": 169,
+    "propertyType": "Lot Only",
+    "typeOfSelling": "For Sale",
+    "address": {
+      "sitio": "Pulangbato",
+      "barangay": "Bulacao",
+      "city": "Talisay City",
+      "provice": "Cebu",
+      "zipCode": "6015"
+    },
+    "amenities": [
+      "basketball court",
+      "clubhouse",
+      "entrance gate",
+      "lamp post"
+    ],
+    "features": ["wide space", "flat terrain", "near in gate"],
+    "seller": "German O",
+    "parentOrganization": "Cebu Best Homes",
+    "propertyDeveloper": "Sta. Lucia",
+    "stats": {
+      "inquiries": 100,
+      "shares": 0,
+      "likes": 0,
+      "views": 0
+    },
+    "originalPostDate": {
+      "date": "3/29/2020",
+      "time": "1:10:07 PM"
+    },
+    "modificationDates": [
+      {
+        "date": "3/29/2020",
+        "time": "10:10:07 PM",
+        "changes": {
+          "who": {
+            "name": "German O",
+            "position": "Real Estate Agent",
+            "parentOrganization": "Cebu Best Homes"
+          },
+          "what": "price",
+          "from": "1,000,000.00",
+          "to": "1,500,000.00"
+        }
+      }
+    ],
+    "details": "Greenwoods Executive Village  is located in Pulangbato, Talamban, Cebu City via National Road then turn left to Barangay Road at Pit-os proper on the direction to Guba. It's spread along Talamban and Pulangbato’s rolling terrain highlighted by the scenic view of natural landscapes and breathtaking mountains.",
+    "img": [
+      {
+        "url": "property-images/id1/IMG_20191028_150050.jpg",
+        "alt": "Caption 1"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150112.jpg",
+        "alt": "Caption 2"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150047.jpg",
+        "alt": "Caption 3"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150114.jpg",
+        "alt": "Caption 4"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_151425.jpg",
+        "alt": "Caption 5"
+      },
+      {
+        "url": "property-images/id1/clubhouse-1.jpg",
+        "alt": "outside view of clubhouse"
+      },
+      {
+        "url": "property-images/id1/clubhouse-2.jpg",
+        "alt": "inside view of clubhouse"
+      },
+      { "url": "property-images/id1/pool.jpg", "alt": "swimming pool" }
+    ]
+  },
+
+  {
+    "title": "Subdivision Lot For Sale",
+    "price": 1250000,
+    "lotArea": 200,
+    "propertyType": "Lot Only",
+    "typeOfSelling": "For Sale",
+    "address": {
+      "sitio": "Pulangbato",
+      "barangay": "Talamban",
+      "city": "Cebu City",
+      "provice": "Cebu",
+      "zipCode": "6015"
+    },
+    "amenities": [
+      "basketball court",
+      "clubhouse",
+      "entrance gate",
+      "lamp post"
+    ],
+    "features": ["wide space", "flat terrain", "near in gate"],
+    "seller": "German O",
+    "parentOrganization": "Cebu Best Homes",
+    "propertyDeveloper": "Sta. Lucia",
+    "stats": {
+      "inquiries": 100,
+      "shares": 0,
+      "likes": 0,
+      "views": 0
+    },
+    "originalPostDate": {
+      "date": "3/29/2020",
+      "time": "1:10:07 PM"
+    },
+    "modificationDates": [
+      {
+        "date": "3/29/2020",
+        "time": "10:10:07 PM",
+        "changes": {
+          "who": {
+            "name": "German O",
+            "position": "Real Estate Agent",
+            "parentOrganization": "Cebu Best Homes"
+          },
+          "what": "price",
+          "from": "1,000,000.00",
+          "to": "1,500,000.00"
+        }
+      }
+    ],
+    "details": "Greenwoods Executive Village  is located in Pulangbato, Talamban, Cebu City via National Road then turn left to Barangay Road at Pit-os proper on the direction to Guba. It's spread along Talamban and Pulangbato’s rolling terrain highlighted by the scenic view of natural landscapes and breathtaking mountains.",
+    "img": [
+      {
+        "url": "property-images/id1/IMG_20191028_150050.jpg",
+        "alt": "Caption 1"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150112.jpg",
+        "alt": "Caption 2"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150047.jpg",
+        "alt": "Caption 3"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150114.jpg",
+        "alt": "Caption 4"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_151425.jpg",
+        "alt": "Caption 5"
+      },
+      {
+        "url": "property-images/id1/clubhouse-1.jpg",
+        "alt": "outside view of clubhouse"
+      },
+      {
+        "url": "property-images/id1/clubhouse-2.jpg",
+        "alt": "inside view of clubhouse"
+      },
+      { "url": "property-images/id1/pool.jpg", "alt": "swimming pool" }
+    ]
+  },
+
+  {
+    "title": "Subdivision Lot For Sale",
+    "price": 1000000,
+    "lotArea": 189,
+    "propertyType": "Lot Only",
+    "typeOfSelling": "For Sale",
+    "address": {
+      "sitio": "Pulangbato",
+      "barangay": "Talamban",
+      "city": "Cebu City",
+      "provice": "Cebu",
+      "zipCode": "6015"
+    },
+    "amenities": [
+      "basketball court",
+      "clubhouse",
+      "entrance gate",
+      "lamp post"
+    ],
+    "features": ["wide space", "flat terrain", "near in gate"],
+    "seller": "German O",
+    "parentOrganization": "Cebu Best Homes",
+    "propertyDeveloper": "Sta. Lucia",
+    "stats": {
+      "inquiries": 100,
+      "shares": 0,
+      "likes": 0,
+      "views": 0
+    },
+    "originalPostDate": {
+      "date": "3/29/2020",
+      "time": "1:10:07 PM"
+    },
+    "modificationDates": [
+      {
+        "date": "3/29/2020",
+        "time": "10:10:07 PM",
+        "changes": {
+          "who": {
+            "name": "German O",
+            "position": "Real Estate Agent",
+            "parentOrganization": "Cebu Best Homes"
+          },
+          "what": "price",
+          "from": "1,000,000.00",
+          "to": "1,500,000.00"
+        }
+      }
+    ],
+    "details": "Greenwoods Executive Village  is located in Pulangbato, Talamban, Cebu City via National Road then turn left to Barangay Road at Pit-os proper on the direction to Guba. It's spread along Talamban and Pulangbato’s rolling terrain highlighted by the scenic view of natural landscapes and breathtaking mountains.",
+    "img": [
+      {
+        "url": "property-images/id1/IMG_20191028_150050.jpg",
+        "alt": "Caption 1"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150112.jpg",
+        "alt": "Caption 2"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150047.jpg",
+        "alt": "Caption 3"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150114.jpg",
+        "alt": "Caption 4"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_151425.jpg",
+        "alt": "Caption 5"
+      },
+      {
+        "url": "property-images/id1/clubhouse-1.jpg",
+        "alt": "outside view of clubhouse"
+      },
+      {
+        "url": "property-images/id1/clubhouse-2.jpg",
+        "alt": "inside view of clubhouse"
+      },
+      { "url": "property-images/id1/pool.jpg", "alt": "swimming pool" }
+    ]
+  },
+  {
+    "title": "Subdivision Lot For Sale",
+    "price": 2000000,
+    "lotArea": 150,
+    "propertyType": "Lot Only",
+    "typeOfSelling": "For Sale",
+    "address": {
+      "sitio": "Pulangbato",
+      "barangay": "Bulacao",
+      "city": "Talisay City",
+      "provice": "Cebu",
+      "zipCode": "6015"
+    },
+    "amenities": [
+      "basketball court",
+      "clubhouse",
+      "entrance gate",
+      "lamp post"
+    ],
+    "features": ["wide space", "flat terrain", "near in gate"],
+    "seller": "German O",
+    "parentOrganization": "Cebu Best Homes",
+    "propertyDeveloper": "Sta. Lucia",
+    "stats": {
+      "inquiries": 100,
+      "shares": 0,
+      "likes": 0,
+      "views": 0
+    },
+    "originalPostDate": {
+      "date": "3/29/2020",
+      "time": "1:10:07 PM"
+    },
+    "modificationDates": [
+      {
+        "date": "3/29/2020",
+        "time": "10:10:07 PM",
+        "changes": {
+          "who": {
+            "name": "German O",
+            "position": "Real Estate Agent",
+            "parentOrganization": "Cebu Best Homes"
+          },
+          "what": "price",
+          "from": "1,000,000.00",
+          "to": "1,500,000.00"
+        }
+      }
+    ],
+    "details": "Greenwoods Executive Village  is located in Pulangbato, Talamban, Cebu City via National Road then turn left to Barangay Road at Pit-os proper on the direction to Guba. It's spread along Talamban and Pulangbato’s rolling terrain highlighted by the scenic view of natural landscapes and breathtaking mountains.",
+    "img": [
+      {
+        "url": "property-images/id1/IMG_20191028_150050.jpg",
+        "alt": "Caption 1"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150112.jpg",
+        "alt": "Caption 2"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150047.jpg",
+        "alt": "Caption 3"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_150114.jpg",
+        "alt": "Caption 4"
+      },
+      {
+        "url": "property-images/id1/IMG_20191028_151425.jpg",
+        "alt": "Caption 5"
+      },
+      {
+        "url": "property-images/id1/clubhouse-1.jpg",
+        "alt": "outside view of clubhouse"
+      },
+      {
+        "url": "property-images/id1/clubhouse-2.jpg",
+        "alt": "inside view of clubhouse"
+      },
+      { "url": "property-images/id1/pool.jpg", "alt": "swimming pool" }
+    ]
+  }
+]

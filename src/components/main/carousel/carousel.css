@@ -1,0 +1,127 @@
+.carousel {
+  display: grid;
+  grid-template-columns: 40px auto 50px;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+.carousel > .slide {
+  display: flex;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  height: 100%;
+}
+
+.carousel > .slide > .item {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  flex: 1 0 100%;
+}
+
+.carousel > .slide .badges {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  grid-column: 1/13;
+  grid-row: 1/3;
+}
+
+.carousel > .slide .badges > * {
+  font-size: 10px;
+  font-weight: bolder;
+  color: #fff;
+  padding: 0.4em;
+  border-radius: 2px;
+}
+
+.carousel > .slide .type-of-selling {
+  background-color: #46a546;
+}
+
+.carousel > .slide .type-of-property {
+  background-color: #a71da7;
+}
+.carousel > .slide .property-status {
+  background-color: #dd9933;
+}
+
+.carousel > .slide .title {
+  grid-column: 1/13;
+  grid-row: 11/13;
+  margin-left: 1em;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.carousel img {
+  grid-column: 1/13;
+  grid-row: 1/13;
+  width: 100%;
+}
+
+.carousel > .prev,
+.next {
+  grid-row: 1/2;
+  align-self: center;
+  justify-self: center;
+  font-size: 3rem;
+  color: #fff;
+  z-index: 2;
+}
+
+.carousel > .prev {
+  grid-column: 1/2;
+}
+
+.carousel > .next {
+  grid-column: 3/4;
+}
+
+@media (min-width: 400px) {
+  .carousel > .slide .badges {
+    justify-content: flex-end;
+    grid-row: 1/2;
+  }
+  .carousel > .slide .badges > * {
+    margin-right: 1em;
+  }
+  .carousel > .slide .title {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .carousel {
+    border-radius: 15px;
+  }
+  .carousel > .slide .badges {
+    justify-content: space-evenly;
+    grid-row: 1/3;
+  }
+  .carousel > .slide .badges > * {
+    margin: 0;
+  }
+  .carousel > .slide .title {
+    font-size: 1.2rem;
+  }
+  .carousel img {
+    border-radius: 15px;
+  }
+}
+
+@media (min-width: 800px) {
+  .carousel > .slide .badges {
+    justify-content: flex-end;
+    grid-row: 1/2;
+  }
+  .carousel > .slide .badges > * {
+    margin-right: 1em;
+  }
+  .carousel > .slide .title {
+    font-size: 1.5rem;
+  }
+}

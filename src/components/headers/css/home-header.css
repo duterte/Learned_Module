@@ -1,0 +1,246 @@
+header {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 40px 30px 523px 66px;
+  margin-bottom: 1em;
+}
+
+header .logo {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  background-color: #061f3e;
+}
+
+header > .header-top,
+.header-links {
+  display: flex;
+  grid-column: 2/4;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #061f3e;
+}
+
+.header-top > .hr-btn {
+  border: 1px solid #040e3c;
+  border-radius: 7px;
+  box-shadow: 0 0 5px #f8f8fe;
+  background-color: #040e3c;
+  margin-right: 1em;
+  padding: 6px;
+  font-size: 1rem;
+  font-weight: bolder;
+  color: #1acae2;
+  cursor: pointer;
+}
+/* ==================================== */
+
+header > .header-links {
+  grid-row: 2/3;
+}
+
+/* ==================================== */
+header > .header-intro {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 3/4;
+  align-self: center;
+  margin: 0 1em;
+  color: #f7fbfe;
+  z-index: 1;
+}
+
+header > .header-intro > .heading {
+  grid-column: 1/3;
+  grid-row: 1/2;
+  justify-self: center;
+  font-size: 4em;
+  /* color: #279056; */
+}
+
+.header-intro > .text {
+  grid-column: 1/3;
+  grid-row: 2/3;
+  text-indent: 3em;
+  text-shadow: 0 0 9px #2ad6eb;
+  line-height: 31px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  padding: 0 1em;
+  z-index: 1;
+}
+
+header > .search {
+  display: grid;
+  grid-template-columns: 1fr 35px;
+  justify-self: center;
+  align-self: center;
+  grid-column: 1/4;
+  grid-row: 4;
+  background-color: #0a0529;
+  box-shadow: 0 0 5px #f8f8fe;
+  border-radius: 5px;
+  width: 90%;
+  height: 3.5em;
+  z-index: 1;
+}
+
+header > .search > input {
+  margin: 5px 0 5px 5px;
+  border: 1px solid black;
+  border-radius: inherit;
+  outline: none;
+  font-size: 1.4em;
+  padding: 0 0.5em;
+}
+
+header > .search > .search-icon {
+  font-size: 2.3em;
+  color: #1acbe3;
+  justify-self: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+header > .category-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px repeat(4, 150px);
+  grid-row-gap: 1em;
+  grid-column: 1/4;
+  margin: 0 1em;
+}
+
+.category-section > .text {
+  align-self: end;
+  font-size: 1rem;
+}
+
+.category-section > :not(p) {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-column: 1/2;
+  justify-content: center;
+  align-items: center;
+  background-color: #279056;
+  color: white;
+  border-radius: 10px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+/* ================================================= */
+
+header > .background {
+  display: grid;
+  grid-column: 1/4;
+  grid-row: 3/5;
+  justify-content: center;
+  align-content: end;
+  background-color: #061f3e;
+}
+
+.background > img {
+  width: 100%;
+  object-fit: fill;
+}
+
+/* ================================================= */
+
+@media (min-width: 554px) {
+  header {
+    grid-template-rows: 51px 30px 200px;
+    grid-row-gap: 0;
+  }
+
+  .header-top > .hr-btn {
+    margin: 1.2em 1em 0 0;
+    font-size: 1.2rem;
+  }
+  /* ==================================== */
+
+  /* Links Area CSS */
+
+  /* ===================================== */
+  header > .header-intro {
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 2/4;
+    max-width: 567px;
+    margin: 0 auto;
+  }
+
+  .header-intro > .text {
+    font-size: 1.5rem;
+  }
+
+  header > .search {
+    margin-top: 0;
+    width: 80%;
+  }
+
+  header > .category-section {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px repeat(2, 150px);
+    grid-column-gap: 1em;
+  }
+
+  .category-section > .text {
+    grid-column: 1/3;
+    font-size: 1.2rem;
+  }
+  .category-section > .lot {
+    grid-column: 1/2;
+  }
+  .category-section > .house-lot {
+    grid-column: 2/3;
+  }
+  .category-section > .condu {
+    grid-column: 1/2;
+  }
+  .category-section > .aprtmnt {
+    grid-column: 2/3;
+  }
+}
+
+@media (min-width: 854px) {
+  header {
+    /* max-width: 1024px; */
+    margin: 0 auto;
+  }
+  .header-intro > .text {
+    padding: 0;
+    font-size: 2rem;
+  }
+  header > .search {
+    width: 650px;
+    margin-top: 1.2em;
+  }
+  header > .category-section {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 150px;
+    grid-column-gap: 1em;
+  }
+
+  .category-section > .text {
+    grid-column: 1/5;
+    font-size: 1.2rem;
+  }
+
+  .category-section > :not(p) {
+    font-size: 1.5em;
+  }
+
+  .category-section > .lot {
+    grid-column: 1/2;
+  }
+
+  .category-section > .house-lot {
+    grid-column: 2/3;
+  }
+  .category-section > .condu {
+    grid-column: 3/4;
+  }
+  .category-section > .aprtmnt {
+    grid-column: 4/5;
+  }
+}
