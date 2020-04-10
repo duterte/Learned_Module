@@ -26,6 +26,7 @@ class Carousel extends React.Component {
       item: '',
       counter: 1,
       size: 0,
+      slideSpeed: 1,
     };
     this.prev = this.prev.bind(this);
     this.next = this.next.bind(this);
@@ -68,24 +69,24 @@ class Carousel extends React.Component {
     }
   }
   prev() {
-    const { slide, item, counter } = this.state;
+    const { slide, item, counter, slideSpeed } = this.state;
     const size = item[counter].clientWidth;
     let number;
 
     if (counter <= 0) return;
     number = counter - 1;
-    slide.style.transition = `transform 0.4s ease-in-out`;
+    slide.style.transition = `transform ${slideSpeed}s ease-in-out`;
     slide.style.transform = `translateX(${-size * number}px)`;
     this.setState({ counter: number });
   }
 
   next() {
-    const { slide, item, counter } = this.state;
+    const { slide, item, counter, slideSpeed } = this.state;
     const size = item[counter].clientWidth;
     let number;
     if (counter >= item.length - 1) return;
     number = counter + 1;
-    slide.style.transition = `transform 0.4s ease-in-out`;
+    slide.style.transition = `transform ${slideSpeed}s ease-in-out`;
     slide.style.transform = `translateX(${-size * number}px)`;
     this.setState({ counter: number });
   }
