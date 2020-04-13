@@ -1,6 +1,7 @@
 import React from 'react';
 import './carousel.css';
 import { TiArrowLeftOutline, TiArrowRightOutline } from 'react-icons/ti';
+// import moment from 'moment';
 
 class Item extends React.Component {
   render() {
@@ -50,6 +51,7 @@ class Carousel extends React.Component {
     this.loopInterval = setInterval(this.loop, 10000);
   }
   stopLoop() {
+    this.setState({ stop: new Date() });
     clearInterval(this.loopInterval);
   }
   transitionEnd() {
@@ -101,7 +103,6 @@ class Carousel extends React.Component {
       slide: slide,
       item: item,
     });
-
     this.startLoop();
   }
 
@@ -116,12 +117,7 @@ class Carousel extends React.Component {
     const folder = `carousel-images/`;
     const { id } = this.props;
     return (
-      <div
-        className="carousel"
-        id={id}
-        onMouseOver={this.stopLoop}
-        onMouseLeave={this.startLoop}
-      >
+      <div className="carousel" id={id}>
         <div className="slide" onTransitionEnd={this.transitionEnd}>
           <Item src={`${folder}Town House.jpg`} alt="Town House" id="last" />
           <Item src={`${folder}Garden.jpg`} alt="Garden" />

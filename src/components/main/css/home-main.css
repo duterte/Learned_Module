@@ -1,19 +1,76 @@
 main > .upper {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
   max-width: 1412px;
   margin: 2em auto;
+}
+
+.upper > #carousel-1 {
+  justify-self: flex-end;
+}
+
+.upper > #carousel-2 {
+  justify-self: flex-start;
 }
 
 main > .upper > * {
   flex: 1 0 100%;
 }
 
-main > .category {
-  max-width: 1412px;
-  height: 300px;
+main > .listings {
+  max-width: 1312px;
+  margin: 2em auto;
+}
+
+main > .listings > .heading {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: 61px;
+  margin-top: 8em;
+}
+
+.heading > h2 {
+  font-size: 1rem;
+  justify-self: center;
+  align-self: center;
+}
+
+.heading > button {
+  align-self: end;
+  font-size: 1.5em;
+  color: #ffffffc7;
+  border: none;
+  background-color: #061f3e;
+  border-radius: 5px;
+  outline: none;
+  width: 60px;
+  height: 40px;
+}
+
+.heading > .left {
+  justify-self: left;
+  margin-left: 2em;
+  box-shadow: 0 5px 0 #37475a;
+}
+
+.heading > .right {
+  justify-self: right;
+  margin-right: 2em;
+  box-shadow: 0 5px 0 #37475a;
+}
+
+.heading > span {
+  align-self: end;
+  justify-self: end;
+  grid-column: 2/4;
+  padding-right: 0.5em;
+  color: red;
+}
+
+main > .bottom {
+  max-width: 1312px;
+  height: 200px;
   border: 1px dashed orange;
   margin: 2em auto;
 }
@@ -24,5 +81,15 @@ main > .category {
   }
   main > .upper > * {
     flex: 0 1 100%;
+  }
+
+  .heading > h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 854px) {
+  .heading > h2 {
+    font-size: 1.5rem;
   }
 }

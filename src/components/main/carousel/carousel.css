@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 40px auto 50px;
   overflow: hidden;
-  max-width: 600px;
+  /* max-width: 600px; */
+  max-width: 709px;
 }
 
 .carousel > .slide {
@@ -96,7 +97,7 @@
 
 @media (min-width: 600px) {
   .carousel {
-    border-radius: 15px;
+    /* border-radius: 15px; */
   }
   .carousel > .slide .badges {
     justify-content: space-evenly;
@@ -109,7 +110,7 @@
     font-size: 1.2rem;
   }
   .carousel img {
-    border-radius: 15px;
+    /* border-radius: 15px; */
   }
 }
 

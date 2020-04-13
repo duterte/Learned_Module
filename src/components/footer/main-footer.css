@@ -1,0 +1,207 @@
+footer {
+  display: grid;
+  grid-template-rows: 50px;
+  color: #f3f3f3d1;
+  font-size: 1.2rem;
+}
+
+footer > .top {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #37475a;
+}
+
+footer > .top > * {
+  flex: 1 0 100%;
+}
+
+footer > .top > .icon {
+  font-size: 2em;
+}
+
+footer > .top > a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: #fff;
+}
+
+footer > .middle,
+.bottom {
+  display: grid;
+}
+
+footer > .middle {
+  background-color: #232f3e;
+}
+
+footer > .middle > .subscribe {
+  display: grid;
+  grid-row-gap: 1em;
+  margin: 2em 0.5em 3em 0.5em;
+}
+
+.middle > .subscribe > p {
+  text-indent: 3em;
+  margin: 1.5em 0;
+  color: #f3f3f3;
+}
+
+.middle > .subscribe > .email-input {
+  display: grid;
+  grid-template-columns: 1fr 38px;
+  max-width: 286px;
+  box-shadow: 0 0 5px #f8f8fe;
+  border-radius: 5px;
+}
+
+.subscribe > .email-input > input {
+  align-self: center;
+  margin: 0.2em 0 0.2em 0.2em;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  padding-left: 0.8em;
+  height: 32px;
+}
+
+.subscribe > .email-input > .icon {
+  align-self: stretch;
+  font-size: 2.6em;
+}
+
+/* =================================================== */
+
+footer > .middle > .contact-us {
+  display: grid;
+  grid-row-gap: 1em;
+  margin: 0 0.5em 3em 0.5em;
+}
+
+.middle > .contact-us > :not(h3) {
+  margin-left: 1.5em;
+  color: #999;
+}
+
+footer > .middle > .links {
+  display: grid;
+  margin-bottom: 3em;
+}
+
+.middle > .links > a {
+  padding: 0.25em 0 0.25em 2em;
+  font-size: 1.1em;
+  font-weight: bold;
+  color: #999;
+  text-decoration: none;
+}
+
+.middle > .links > a:hover {
+  background-color: #37475a;
+}
+
+/* =================================================== */
+
+footer > .middle > .social-media {
+  grid-row-gap: 1em;
+  margin: 0 0.5em 3em 0.5em;
+}
+
+.social-media > .icon-holder {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-media > .icon-holder > .icon {
+  font-size: 3em;
+  color: #999;
+}
+
+/* background-color: #232f3e, color: #FFF; color: #DDD; */
+/*   background-color: #131A22,  color: #999*/
+
+footer > .bottom {
+  display: grid;
+  justify-content: center;
+  background-color: #131a22;
+}
+
+/* ===================================================== */
+@media (min-width: 400px) {
+  .middle > .subscribe > .email-input {
+    justify-self: center;
+    width: 286px;
+  }
+  footer > .middle > .links {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 554px) {
+  footer > .middle {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  footer > .middle > .contact-us {
+    grid-row-gap: 0;
+    align-self: end;
+  }
+
+  .middle > .contact-us > :not(h3) {
+    margin: 0;
+  }
+  footer > .middle > .links,
+  .social-media {
+    margin-bottom: 1em;
+  }
+}
+@media (min-width: 854px) {
+  footer > .middle {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  footer > .middle > .subscribe {
+    margin: 2em 0.5em 1em 0.5em;
+  }
+
+  footer > .middle > .contact-us {
+    margin: 0 0.5em 1em 0.5em;
+  }
+
+  footer > .middle > .links {
+    justify-content: start;
+    align-items: center;
+    margin-top: 2em;
+  }
+
+  footer > .middle > .links > a {
+    padding: 0;
+  }
+  footer > .middle > .social-media {
+    grid-column: 2/4;
+    margin: 0 0.5em 1em 0.5em;
+  }
+}
+
+@media (min-width: 1024px) {
+  footer > .middle {
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  /* .middle > .subscribe > .email-input {
+    max-width: 286px;
+  } */
+
+  footer > .middle > .contact-us {
+    align-self: center;
+  }
+  footer > .middle > .social-media {
+    grid-column: 4/5;
+    align-content: center;
+  }
+}
+/* .middle > .links > a {
+    justify-self: start;
+    padding: 0.5em;
+  } */
